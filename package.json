@@ -1,7 +1,7 @@
 {
-  "name": "hubot-jenkins-enhanced",
+  "name": "@legacy/hubot-jenkins-enhanced",
   "description": "Jenkins integration for Hubot with multiple server support",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Winton De Shong <contact@winton.me>",
   "contributors": [
     "Zack Hable <zack@cobaltdevteam.com>"
@@ -23,6 +23,9 @@
   },
   "devDependencies": {},
   "main": "index.coffee",
+  "publishConfig": {
+    "registry": "https://legacy.jfrog.io/artifactory/api/npm/npm/"
+  },
   "scripts": {
     "test": "script/test"
   }
